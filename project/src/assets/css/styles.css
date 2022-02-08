@@ -1,0 +1,49 @@
+
+.header{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-style{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navbar-style li a{
+    color: white !important;
+}
+
+.navbar-scroll{
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.navbar-scroll li a{
+    color: white !important;
+}
+
+.navbar-scroll .logo{
+    height: 5rem;
+    transform: scale(1) translate(-1%, -1%);
+}
+
+@media (max-width: 755px) {
+    .navbar-style li a{
+        margin-left: 0.5rem;
+        margin-bottom: 0.5rem;
+        color: var(--blue);
+        font-size: .9rem;
+        font-weight: lighter;
+    }
+}
+
+/*MOBILE NAVBAR*/
+
+@media (max-width: 992px) {
+    #offcanvasNavbar{
+        background-color: black;
+    }
+}
